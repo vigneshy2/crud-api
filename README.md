@@ -10,6 +10,33 @@ A REST API for managing student data built with Node.js, Express, and PostgreSQL
 - **Update a student**: Update an existing student's information.
 - **Delete a student**: Remove a student from the database.
 
+## Database
+
+This project uses PostgreSQL as its database. Ensure you have PostgreSQL installed and configured properly. Update the `db.js` file with your database credentials.
+
+ ## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/crud-api.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd crud-api
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+1. Start the server:
+    ```bash
+    node server.js
+    ```
+2. The API will be accessible at `http://localhost:3000`.
+
  ## Endpoints
 ### Get all students
 - **GET** `/api/students`
@@ -39,11 +66,3 @@ A REST API for managing student data built with Node.js, Express, and PostgreSQL
 - **DELETE** `/api/students/:id`
   - `id` (integer): ID of the student
 
-## Database
-
-This project uses PostgreSQL as its database. Ensure you have PostgreSQL installed and configured properly. Update the `db.js` file with your database credentials.
-
-## Installation
-Clone the repository:
-   ```bash
-   git clone https://github.com/vigneshy2/crud-api.git
